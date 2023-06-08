@@ -1,0 +1,40 @@
+GET:
+localhost:3000/accounts/
+
+GET:
+localhost:3000/accounts/lin9huql/
+
+
+POST:
+{"email": "456@gmail.com",
+"accountName":"456",
+"website": "456web"}
+localhost:3000/accounts/lin9huql/
+
+DELETE:
+localhost:3000/accounts/lin9huql/
+
+---------------------------------------------------------------------
+
+GET:
+localhost:3000/accounts/lin9huql/destinations
+
+POST:
+{
+    "url":"http://test.com",
+    "method":"GET",
+    "headers": "{'Content-Type': 'application/json','appsecrettoken': 'kCIOxpICbcDpnRXs9mGBA2aR64dlir7y23DXNi','CL-X-TOKEN': 'kCIOxpICbcDpnRXs9mGBA2aR64dlir7y23DXNi' }"
+}
+localhost:3000/accounts/lin9huql/destinations
+
+DELETE:
+localhost:3000/accounts/lin9huql/destinations
+
+_____________________________________________________________________
+
+POST : 
+{
+    "method":"POST",
+   "cl-x-token": "kCIOxpICbcDpnRXs9mGBA2aR64dlir7y23DXNi"
+}
+localhost:3000/server/incoming_data
