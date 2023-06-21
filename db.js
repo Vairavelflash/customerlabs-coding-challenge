@@ -3,8 +3,8 @@ const mysql = require('mysql');
 // Create a MySQL connection pool
 const connection = mysql.createConnection({
   host: 'sql12.freemysqlhosting.net',
-  user: 'sql12624287',
-  password: 'jqQdxick5u',
+  user: '',
+  password: '',
   database: 'sql12624287',
 });
 
